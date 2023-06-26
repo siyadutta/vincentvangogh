@@ -1,0 +1,319 @@
+/* Common Elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hr1{
+    border: 4px;
+    border-color: cadetblue;
+    border-style: solid;
+}
+
+#footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    height: 40px;
+    background-color: cadetblue;
+    bottom: 0;
+    color: rgb(73, 54, 0);
+    justify-content: center;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 15px;
+}
+/* Navigation Bar */
+
+#logo{
+    width: 20%;
+    padding: 100px;
+}
+
+#logo img{
+    border-radius: 25px;
+}
+
+#navbar{
+    display: flex;
+    height: 100px;
+    background-color: cadetblue;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-family: 'Caprasimo', cursive;
+    color:  rgb(245, 199, 73);
+}
+
+#navlinks{
+    margin: 60px;
+    width: 50%;
+    align-items: center;
+}
+.linka{
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.linka:hover{
+    background-color: rgb(245, 199, 73);
+    color: cadetblue;
+    border-radius: 25px;
+    transition: 1s;
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.linka{
+    color: rgb(73, 54, 0);
+}
+.currentpage{
+    border: 2px solid rgb(73, 54, 0);
+    border-radius: 20px;
+}
+
+/* Social Media Links  */
+
+#socialmedia{
+    margin-left: 200px;
+    text-align: center;
+    margin: auto;
+    }
+    
+    #socialmedia img{
+        border-radius: 10px;
+    }
+    
+    #socialmedia img:hover{
+        transform: scale(1.2);
+        box-shadow: 0px 0px 25px 0px rgb(245, 199, 73);;
+        transition: 1s;
+    }
+
+
+/* Home Content  */
+
+#homecontent{
+    background-image: url(sunflowers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 925px;
+    background-position: center;
+}
+
+.h1{
+    font-size: 100px;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(73, 54, 0);
+    text-align: center;
+    background-color: rgb(245, 199, 73);
+    width: 1000px;
+    margin-left: 175px;
+    border-radius: 25px;
+}
+
+.h2{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 54, 0);
+    text-align: center;
+    background-color: rgb(245, 199, 73);
+    width: 800px;
+    margin-left: 275px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+#learnmorow{
+    display: flex;
+    background-color: rgb(245, 199, 73);
+    height: 475px;
+}
+
+.homeimages{
+    height: 350px;
+    margin: 27px;
+    border-radius: 15px;
+}
+
+#tsntext{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 54, 0);
+}
+
+#letterstext{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 54, 0);
+}
+
+#portraittext{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(73, 54, 0);
+}
+
+.chevronright1{
+    height: 10px;
+}
+
+/* About Content  */
+
+#aboutcontent{
+    background-color: rgb(245, 199, 73);
+    height: 1250px;
+}
+
+#aboutheading{
+    font-family: 'Caprasimo', cursive;
+    color: rgb(73, 54, 0);
+    text-align: center;
+}
+
+#aboutmain{
+    display: flex;
+    justify-content: center;
+}
+
+#abouttext{
+    width: 400px;
+    margin: 20px;
+}
+
+#portrait3{
+    margin: 20px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+#aboutus{
+    background-image: url(gardenatarles.PNG);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#abouttextsub{
+    text-align: center;
+    color: rgb(73, 54, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Artworks Content  */
+
+#artworkheading{
+    font-family: 'Caprasimo', cursive;
+    text-align: center;
+    color: rgb(73, 54, 0);
+}
+
+#artworkscontent{
+    background-color: rgb(245, 199, 73);
+    height: 1700px;
+}
+
+.artworks{
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    border-radius: 15px;
+}
+
+.artworksdis{
+    display: flex;
+}
+
+.artworktext{
+    text-align: center;
+    color: rgb(73, 54, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Visit Content  */
+
+#visitcontent{
+    background-color: cadetblue;
+    height: 2030px;
+    align-items: center;
+}
+
+#visitheading{
+    font-family: 'Caprasimo', cursive;
+    color: rgb(73, 54, 0);
+    text-align: center;   
+}
+
+.visitcont{
+    display: flex;
+    justify-content: center;
+}
+
+.visitht{
+    width: 400px;
+    margin: 25px;
+    padding: 15px;
+    background-color: cadetblue;
+    color: rgb(73, 54, 0);
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.visittext{
+    width: 400px;
+    margin: 25px;
+    padding: 15px;
+    background-color: cadetblue;
+    color: rgb(73, 54, 0);
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.visitimg{
+    height: 400px;
+    margin: 25px;
+    border-radius: 15px;
+
+}
+
+#yellowhouse{
+    background-image: url(wheatfieldunderthunderclouds.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+#church{
+    background-image: url(wheatfields.PNG);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+#gachet{
+    background-image: url(gachetbg.png);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+#seine{
+    background-image: url(bytheseine.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    background-repeat: no-repeat;
+}
